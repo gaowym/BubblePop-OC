@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250128D5209DE8C80059BDE1 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 250128D4209DE8C80059BDE1 /* 2.wav */; };
+		250128D9209DEB280059BDE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250128D8209DEB280059BDE1 /* AVFoundation.framework */; };
+		250128DF209DF25C0059BDE1 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 250128DE209DF25B0059BDE1 /* 1.wav */; };
+		250128E1209DF9F20059BDE1 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 250128E0209DF9F20059BDE1 /* beep.wav */; };
+		253D4ABF1EB9EA6B004EC027 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D4ABD1EB9EA6B004EC027 /* HomeViewController.m */; };
+		253D4AC81EBA13FA004EC027 /* bubble1.png in Resources */ = {isa = PBXBuildFile; fileRef = 253D4AC71EBA13FA004EC027 /* bubble1.png */; };
+		25561E2E1EB4C97200B19346 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25561E2D1EB4C97200B19346 /* SettingsViewController.m */; };
+		25561E341EB4DA9900B19346 /* ScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25561E331EB4DA9900B19346 /* ScoreBoardViewController.m */; };
+		25675BEA1EBF298100729648 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25675BE91EBF298100729648 /* GameOverViewController.m */; };
+		258DACBE21197233005DF36F /* Bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 258DACBD21197233005DF36F /* Bubble.png */; };
+		258DACC021197D11005DF36F /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 258DACBF21197D11005DF36F /* logo1.png */; };
+		258DACC221197ECE005DF36F /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 258DACC121197ECE005DF36F /* logo2.png */; };
+		259A405E1EB2EF6D00D975DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A405D1EB2EF6D00D975DD /* main.m */; };
+		259A40611EB2EF6D00D975DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A40601EB2EF6D00D975DD /* AppDelegate.m */; };
+		259A40641EB2EF6D00D975DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A40631EB2EF6D00D975DD /* ViewController.m */; };
+		259A40671EB2EF6D00D975DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A40651EB2EF6D00D975DD /* Main.storyboard */; };
+		259A406A1EB2EF6D00D975DD /* BubblePop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 259A40681EB2EF6D00D975DD /* BubblePop.xcdatamodeld */; };
+		259A406C1EB2EF6D00D975DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259A406B1EB2EF6D00D975DD /* Assets.xcassets */; };
+		259A406F1EB2EF6D00D975DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A406D1EB2EF6D00D975DD /* LaunchScreen.storyboard */; };
+		259A407A1EB2EF6D00D975DD /* BubblePopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A40791EB2EF6D00D975DD /* BubblePopTests.m */; };
+		259A40851EB2EF6D00D975DD /* BubblePopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A40841EB2EF6D00D975DD /* BubblePopUITests.m */; };
+		25F902A61EB5F41800CEC57B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F902A51EB5F41800CEC57B /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259A40761EB2EF6D00D975DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259A40511EB2EF6D00D975DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259A40581EB2EF6D00D975DD;
+			remoteInfo = BubblePop;
+		};
+		259A40811EB2EF6D00D975DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259A40511EB2EF6D00D975DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259A40581EB2EF6D00D975DD;
+			remoteInfo = BubblePop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		250128D4209DE8C80059BDE1 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		250128D8209DEB280059BDE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		250128DE209DF25B0059BDE1 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		250128E0209DF9F20059BDE1 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		253D4ABD1EB9EA6B004EC027 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		253D4ABE1EB9EA6B004EC027 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		253D4AC71EBA13FA004EC027 /* bubble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble1.png; sourceTree = "<group>"; };
+		25561E2C1EB4C97200B19346 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		25561E2D1EB4C97200B19346 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		25561E321EB4DA9900B19346 /* ScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoardViewController.h; sourceTree = "<group>"; };
+		25561E331EB4DA9900B19346 /* ScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoardViewController.m; sourceTree = "<group>"; };
+		25675BE81EBF298100729648 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverViewController.h; sourceTree = "<group>"; };
+		25675BE91EBF298100729648 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverViewController.m; sourceTree = "<group>"; };
+		258DACBD21197233005DF36F /* Bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bubble.png; sourceTree = "<group>"; };
+		258DACBF21197D11005DF36F /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		258DACC121197ECE005DF36F /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		259A40591EB2EF6D00D975DD /* BubblePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259A405D1EB2EF6D00D975DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259A405F1EB2EF6D00D975DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		259A40601EB2EF6D00D975DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		259A40621EB2EF6D00D975DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		259A40631EB2EF6D00D975DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		259A40661EB2EF6D00D975DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259A40691EB2EF6D00D975DD /* BubblePop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BubblePop.xcdatamodel; sourceTree = "<group>"; };
+		259A406B1EB2EF6D00D975DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259A406E1EB2EF6D00D975DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259A40701EB2EF6D00D975DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259A40751EB2EF6D00D975DD /* BubblePopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblePopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259A40791EB2EF6D00D975DD /* BubblePopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubblePopTests.m; sourceTree = "<group>"; };
+		259A407B1EB2EF6D00D975DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259A40801EB2EF6D00D975DD /* BubblePopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblePopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259A40841EB2EF6D00D975DD /* BubblePopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubblePopUITests.m; sourceTree = "<group>"; };
+		259A40861EB2EF6D00D975DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F902A51EB5F41800CEC57B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259A40561EB2EF6D00D975DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250128D9209DEB280059BDE1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259A40721EB2EF6D00D975DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259A407D1EB2EF6D00D975DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250128D7209DEB270059BDE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				250128D8209DEB280059BDE1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		259A40501EB2EF6D00D975DD = {
+			isa = PBXGroup;
+			children = (
+				259A405B1EB2EF6D00D975DD /* BubblePop */,
+				259A40781EB2EF6D00D975DD /* BubblePopTests */,
+				259A40831EB2EF6D00D975DD /* BubblePopUITests */,
+				259A405A1EB2EF6D00D975DD /* Products */,
+				250128D7209DEB270059BDE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		259A405A1EB2EF6D00D975DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259A40591EB2EF6D00D975DD /* BubblePop.app */,
+				259A40751EB2EF6D00D975DD /* BubblePopTests.xctest */,
+				259A40801EB2EF6D00D975DD /* BubblePopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259A405B1EB2EF6D00D975DD /* BubblePop */ = {
+			isa = PBXGroup;
+			children = (
+				259A406D1EB2EF6D00D975DD /* LaunchScreen.storyboard */,
+				259A40651EB2EF6D00D975DD /* Main.storyboard */,
+				259A405F1EB2EF6D00D975DD /* AppDelegate.h */,
+				259A40601EB2EF6D00D975DD /* AppDelegate.m */,
+				253D4ABD1EB9EA6B004EC027 /* HomeViewController.m */,
+				253D4ABE1EB9EA6B004EC027 /* HomeViewController.h */,
+				259A40621EB2EF6D00D975DD /* ViewController.h */,
+				259A40631EB2EF6D00D975DD /* ViewController.m */,
+				25561E2C1EB4C97200B19346 /* SettingsViewController.h */,
+				25561E2D1EB4C97200B19346 /* SettingsViewController.m */,
+				25561E321EB4DA9900B19346 /* ScoreBoardViewController.h */,
+				25561E331EB4DA9900B19346 /* ScoreBoardViewController.m */,
+				25675BE81EBF298100729648 /* GameOverViewController.h */,
+				25675BE91EBF298100729648 /* GameOverViewController.m */,
+				259A40701EB2EF6D00D975DD /* Info.plist */,
+				259A40681EB2EF6D00D975DD /* BubblePop.xcdatamodeld */,
+				259A406B1EB2EF6D00D975DD /* Assets.xcassets */,
+				259A405C1EB2EF6D00D975DD /* Supporting Files */,
+			);
+			path = BubblePop;
+			sourceTree = "<group>";
+		};
+		259A405C1EB2EF6D00D975DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				258DACBD21197233005DF36F /* Bubble.png */,
+				258DACBF21197D11005DF36F /* logo1.png */,
+				258DACC121197ECE005DF36F /* logo2.png */,
+				250128DE209DF25B0059BDE1 /* 1.wav */,
+				250128D4209DE8C80059BDE1 /* 2.wav */,
+				250128E0209DF9F20059BDE1 /* beep.wav */,
+				253D4AC71EBA13FA004EC027 /* bubble1.png */,
+				25F902A51EB5F41800CEC57B /* logo.png */,
+				259A405D1EB2EF6D00D975DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		259A40781EB2EF6D00D975DD /* BubblePopTests */ = {
+			isa = PBXGroup;
+			children = (
+				259A40791EB2EF6D00D975DD /* BubblePopTests.m */,
+				259A407B1EB2EF6D00D975DD /* Info.plist */,
+			);
+			path = BubblePopTests;
+			sourceTree = "<group>";
+		};
+		259A40831EB2EF6D00D975DD /* BubblePopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259A40841EB2EF6D00D975DD /* BubblePopUITests.m */,
+				259A40861EB2EF6D00D975DD /* Info.plist */,
+			);
+			path = BubblePopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259A40581EB2EF6D00D975DD /* BubblePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259A40891EB2EF6D00D975DD /* Build configuration list for PBXNativeTarget "BubblePop" */;
+			buildPhases = (
+				259A40551EB2EF6D00D975DD /* Sources */,
+				259A40561EB2EF6D00D975DD /* Frameworks */,
+				259A40571EB2EF6D00D975DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubblePop;
+			productName = BubblePop;
+			productReference = 259A40591EB2EF6D00D975DD /* BubblePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259A40741EB2EF6D00D975DD /* BubblePopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259A408C1EB2EF6D00D975DD /* Build configuration list for PBXNativeTarget "BubblePopTests" */;
+			buildPhases = (
+				259A40711EB2EF6D00D975DD /* Sources */,
+				259A40721EB2EF6D00D975DD /* Frameworks */,
+				259A40731EB2EF6D00D975DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259A40771EB2EF6D00D975DD /* PBXTargetDependency */,
+			);
+			name = BubblePopTests;
+			productName = BubblePopTests;
+			productReference = 259A40751EB2EF6D00D975DD /* BubblePopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259A407F1EB2EF6D00D975DD /* BubblePopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259A408F1EB2EF6D00D975DD /* Build configuration list for PBXNativeTarget "BubblePopUITests" */;
+			buildPhases = (
+				259A407C1EB2EF6D00D975DD /* Sources */,
+				259A407D1EB2EF6D00D975DD /* Frameworks */,
+				259A407E1EB2EF6D00D975DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259A40821EB2EF6D00D975DD /* PBXTargetDependency */,
+			);
+			name = BubblePopUITests;
+			productName = BubblePopUITests;
+			productReference = 259A40801EB2EF6D00D975DD /* BubblePopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259A40511EB2EF6D00D975DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UTS;
+				TargetAttributes = {
+					259A40581EB2EF6D00D975DD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MZU2HV26VR;
+						ProvisioningStyle = Automatic;
+					};
+					259A40741EB2EF6D00D975DD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MZU2HV26VR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 259A40581EB2EF6D00D975DD;
+					};
+					259A407F1EB2EF6D00D975DD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MZU2HV26VR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 259A40581EB2EF6D00D975DD;
+					};
+				};
+			};
+			buildConfigurationList = 259A40541EB2EF6D00D975DD /* Build configuration list for PBXProject "BubblePop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259A40501EB2EF6D00D975DD;
+			productRefGroup = 259A405A1EB2EF6D00D975DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259A40581EB2EF6D00D975DD /* BubblePop */,
+				259A40741EB2EF6D00D975DD /* BubblePopTests */,
+				259A407F1EB2EF6D00D975DD /* BubblePopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259A40571EB2EF6D00D975DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258DACBE21197233005DF36F /* Bubble.png in Resources */,
+				250128E1209DF9F20059BDE1 /* beep.wav in Resources */,
+				25F902A61EB5F41800CEC57B /* logo.png in Resources */,
+				250128DF209DF25C0059BDE1 /* 1.wav in Resources */,
+				259A406F1EB2EF6D00D975DD /* LaunchScreen.storyboard in Resources */,
+				259A406C1EB2EF6D00D975DD /* Assets.xcassets in Resources */,
+				250128D5209DE8C80059BDE1 /* 2.wav in Resources */,
+				259A40671EB2EF6D00D975DD /* Main.storyboard in Resources */,
+				258DACC221197ECE005DF36F /* logo2.png in Resources */,
+				258DACC021197D11005DF36F /* logo1.png in Resources */,
+				253D4AC81EBA13FA004EC027 /* bubble1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259A40731EB2EF6D00D975DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259A407E1EB2EF6D00D975DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259A40551EB2EF6D00D975DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25675BEA1EBF298100729648 /* GameOverViewController.m in Sources */,
+				259A40641EB2EF6D00D975DD /* ViewController.m in Sources */,
+				259A406A1EB2EF6D00D975DD /* BubblePop.xcdatamodeld in Sources */,
+				25561E2E1EB4C97200B19346 /* SettingsViewController.m in Sources */,
+				259A40611EB2EF6D00D975DD /* AppDelegate.m in Sources */,
+				253D4ABF1EB9EA6B004EC027 /* HomeViewController.m in Sources */,
+				25561E341EB4DA9900B19346 /* ScoreBoardViewController.m in Sources */,
+				259A405E1EB2EF6D00D975DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259A40711EB2EF6D00D975DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259A407A1EB2EF6D00D975DD /* BubblePopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259A407C1EB2EF6D00D975DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259A40851EB2EF6D00D975DD /* BubblePopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259A40771EB2EF6D00D975DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259A40581EB2EF6D00D975DD /* BubblePop */;
+			targetProxy = 259A40761EB2EF6D00D975DD /* PBXContainerItemProxy */;
+		};
+		259A40821EB2EF6D00D975DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259A40581EB2EF6D00D975DD /* BubblePop */;
+			targetProxy = 259A40811EB2EF6D00D975DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259A40651EB2EF6D00D975DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259A40661EB2EF6D00D975DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259A406D1EB2EF6D00D975DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259A406E1EB2EF6D00D975DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259A40871EB2EF6D00D975DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		259A40881EB2EF6D00D975DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259A408A1EB2EF6D00D975DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZU2HV26VR;
+				INFOPLIST_FILE = BubblePop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259A408B1EB2EF6D00D975DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZU2HV26VR;
+				INFOPLIST_FILE = BubblePop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259A408D1EB2EF6D00D975DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MZU2HV26VR;
+				INFOPLIST_FILE = BubblePopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubblePop.app/BubblePop";
+			};
+			name = Debug;
+		};
+		259A408E1EB2EF6D00D975DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MZU2HV26VR;
+				INFOPLIST_FILE = BubblePopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubblePop.app/BubblePop";
+			};
+			name = Release;
+		};
+		259A40901EB2EF6D00D975DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MZU2HV26VR;
+				INFOPLIST_FILE = BubblePopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BubblePop;
+			};
+			name = Debug;
+		};
+		259A40911EB2EF6D00D975DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MZU2HV26VR;
+				INFOPLIST_FILE = BubblePopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.uts.BubblePopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BubblePop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259A40541EB2EF6D00D975DD /* Build configuration list for PBXProject "BubblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259A40871EB2EF6D00D975DD /* Debug */,
+				259A40881EB2EF6D00D975DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259A40891EB2EF6D00D975DD /* Build configuration list for PBXNativeTarget "BubblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259A408A1EB2EF6D00D975DD /* Debug */,
+				259A408B1EB2EF6D00D975DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259A408C1EB2EF6D00D975DD /* Build configuration list for PBXNativeTarget "BubblePopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259A408D1EB2EF6D00D975DD /* Debug */,
+				259A408E1EB2EF6D00D975DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259A408F1EB2EF6D00D975DD /* Build configuration list for PBXNativeTarget "BubblePopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259A40901EB2EF6D00D975DD /* Debug */,
+				259A40911EB2EF6D00D975DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		259A40681EB2EF6D00D975DD /* BubblePop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				259A40691EB2EF6D00D975DD /* BubblePop.xcdatamodel */,
+			);
+			currentVersion = 259A40691EB2EF6D00D975DD /* BubblePop.xcdatamodel */;
+			path = BubblePop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 259A40511EB2EF6D00D975DD /* Project object */;
+}
